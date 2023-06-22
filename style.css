@@ -819,9 +819,18 @@ section.brands .brandsBox {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     overflow: hidden;
 
     cursor: pointer;
+}
+
+section.brands .brandsBox img {
+    width: 100%;
+    object-fit: cover;
 }
 
 
@@ -1789,7 +1798,7 @@ span {
 
     header .header-bottom .search input {
         padding: .7rem 0rem;
-        padding-left: 3.5rem;
+        padding-left: 3rem;
         flex: 4;
         outline: none;
         border: none;
@@ -1802,7 +1811,7 @@ span {
 
     header .header-bottom .search .bi-search {
         position: absolute;
-        left: 1rem;
+        left: .5rem;
         font-size: 1.5rem;
         color: rgba(128, 128, 128, 0.553);
     }
@@ -1811,6 +1820,8 @@ span {
         font-size: .7rem;
         padding: 1rem 0;
     }
+
+
 
 
 
